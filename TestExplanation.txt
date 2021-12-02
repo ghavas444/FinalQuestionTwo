@@ -1,0 +1,12 @@
+For the first set of test cases I provided valid entries into the function
+and expected the correct outcomes, this was to test that the function actually 
+works and functions as expected.
+
+For the second set of test cases I tested to see if spaces were read by the function
+to make sure that the space character was included in what counted as a character.
+For the end result I also expected the correct number of characters.
+
+For the third set of test cases I tested to make sure that special characters
+in a string counted toward the end count, this is important if special characters
+are included that they should count. For the end result I expected the output of the final
+character count to be correct.
