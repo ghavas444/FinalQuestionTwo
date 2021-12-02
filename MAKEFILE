@@ -1,0 +1,12 @@
+CC = g++
+CFLAGS = -Wall
+
+all: build
+
+build: count.exe
+
+count.exe: count.o
+	$(CC) $(CFLAGS) -o $@ count.o
+
+count.o: count.cc
+	$(CC) $(CFLAGS) count.cc -o $@
