@@ -1,0 +1,16 @@
+The cppcheck output means that a couple booleans (!fp)
+that are redundant and there are multiple null pointer references.
+There are also warnings that certain variables were assigned but never
+used, as well as other warnings that arguments are null. These warnings
+are important for staying consistent in the program and making sure that
+each variable is used correctly as well as no null values
+being used.
+
+The valgrind output means that there were no memory leaks found within the
+program as well as o errors from 0 contexts without any of the errors being
+suppressed. It does however give the bytes that are still reachable by the program,
+which are...
+  - 2,010
+  - 2,522
+  - 986
+Valgrind also provides the total heap usage for each code block.

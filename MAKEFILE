@@ -13,3 +13,8 @@ count.o: count.cc
 
 make doc:
 	doxygen Doxyfile
+	Doxyfile
+
+make check:
+	./cppcheck count.cc
+	valgrind --leak-check=full ./count.cc
