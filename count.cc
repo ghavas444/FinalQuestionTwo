@@ -130,10 +130,28 @@ counter (const char *file)
   return ccount;
 }
 
+/*
+*   @brief: Counts the number of lines in a given string
+*   @param: entry - the string entered to be analyzed
+*   @return: Returns an integer which represents the number
+*       of lines in the string
+*/
 int countLine(string entry);
 
+/*
+*   @brief: Counts the number of characters in a given string
+*   @param: entry - the string entered to be analyzed
+*   @return: Returns an integer which represents the number
+*       of characters in the string
+*/
 int countChar(string entry);
 
+/*
+*   @brief: Main function which executes the functions above and below
+*   @param: argc - the number of command line arguments
+*           argv - hold the command line arguments
+*   @return: returns 0 when done
+*/
 int main(int argc, char **argv)
 {
 

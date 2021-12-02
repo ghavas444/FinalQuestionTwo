@@ -10,3 +10,6 @@ count.exe: count.o
 
 count.o: count.cc
 	$(CC) $(CFLAGS) count.cc -o $@
+
+make doc:
+	doxygen Doxyfile
