@@ -1,0 +1,4 @@
+The output that Valgrind printed when analyzing the testing functions reported
+that there were no memory leaks. There were, however, 826 bytes still in use at exit
+for the heap summary. As well as 29 allocations, 5 frees, and 2,890 bytes allocated.
+Even run with --leak-check=full there were no leaks found.
